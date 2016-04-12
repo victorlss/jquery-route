@@ -1,6 +1,6 @@
 # jQuery Route
 
-<a href="https://raw.githubusercontent.com/victorlss/jquery-route/jquery.route.js" target="_blank">Download</a>
+<a href="https://raw.githubusercontent.com/victorlss/jquery-route/master/jquery.route.js" target="_blank">Download</a>
 
 ##### Example:
 ```html
