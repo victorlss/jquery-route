@@ -34,7 +34,7 @@
         var paramsNames = value.url.match(/\{([a-z]+)\}/g); //TODO: Implement others types
         if(paramsNames){
           var params = url.match(/([0-9]+)/g);
-          if(paramsNames.length == params.length){
+          if(params && paramsNames.length == params.length){
             route = value;
             route.url = url;
             $.each(paramsNames,function(index,name){
