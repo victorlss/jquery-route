@@ -2,7 +2,7 @@
  * jQuery Route v1.1.0
  * 
  * Copyright 2016
- * Authors: Victor Silva
+ * Author: Victor Silva
  * All Rights Reserved.
  * Use, reproduction, distribution, and modification of this code is subject to the terms and
  * conditions of the MIT license, available at http://www.opensource.org/licenses/mit-license.php
