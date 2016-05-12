@@ -46,7 +46,7 @@
           route = value;
       });
 
-      if(route){
+      if(route.view){
         $.get(route.view).done(function() {           
           settings.content.load(route.view);
           document.location.hash = "#" + route.url;
