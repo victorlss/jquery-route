@@ -22,6 +22,10 @@
       {
         url: "users/add", // http://your-server.com/#users/add
         view: "views/users/add.html"
+      },
+      {
+        url: "users/{id}", // http://your-server.com/#users/1
+        view: "views/users/detail.html?id={id}"
       }
     ]
   });
