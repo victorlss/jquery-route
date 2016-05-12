@@ -12,15 +12,15 @@
     default: "home",
     routes: [
       {
-        url: "home",
+        url: "home", // http://your-server.com/#home
         view: "views/home.html"
       },
       {
-        url: "users",
+        url: "users", // http://your-server.com/#users
         view: "views/users/index.html"
       },
       {
-        url: "users/add",
+        url: "users/add", // http://your-server.com/#users/add
         view: "views/users/add.html"
       }
     ]
