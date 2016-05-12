@@ -1,5 +1,5 @@
 /*!
- * jQuery Route v1.0.0
+ * jQuery Route v1.1.0
  * 
  * Copyright 2016
  * Authors: Victor Silva
@@ -31,7 +31,7 @@
       var route = {};
       
       $.each(settings.routes,function(index,value){
-        var paramsNames = value.url.match(/\{([a-z]+)\}/g);
+        var paramsNames = value.url.match(/\{([a-z]+)\}/g); //TODO: Implement others types
         if(paramsNames){
           var params = url.match(/([0-9]+)/g);
           if(paramsNames.length == params.length){
