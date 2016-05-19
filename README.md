@@ -3,7 +3,7 @@
 <a href="https://raw.githubusercontent.com/victorlss/jquery-route/master/jquery.route.js" target="_blank">Latest Version Download (1.1.0)</a>
 
 
-##### Example:
+#### Example
 ```html
 <div id="content"></div>
 
@@ -32,6 +32,12 @@
   });
 </script>
 ```
+#### Release notes
+
+- 1.1
+	- Route with params
+- 1.0
+	- First Release
 
 Authors: <a href="https://github.com/victorlss" target="_blank">Victor Silva</a>
 All Rights Reserved.<br />
