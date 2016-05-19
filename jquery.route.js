@@ -31,9 +31,9 @@
       var route = {};
       
       $.each(settings.routes,function(index,value){
-        var paramsNames = value.url.match(/\{([a-z]+)\}/g); //TODO: Implement others types
+        var paramsNames = value.url.match(/\{([a-z]+)\}/g);
         if(paramsNames){
-          var params = url.match(/([0-9]+)/g);
+          var params = url.match(/([0-9]+)/g); //TODO: Implement others types
           if(params && paramsNames.length == params.length){
             route = value;
             route.url = url;
