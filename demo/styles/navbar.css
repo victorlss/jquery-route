@@ -1,0 +1,60 @@
+﻿ul {
+    display: inline-block;
+	list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
+ul a {
+	display: block;
+	text-decoration:none;
+	font-size: 22px;
+	line-height:32px;
+	padding: 15px 15px;
+    color: #333;
+    transition: all 150ms linear;
+}
+
+ul a:hover,
+ul a:active {
+	color: #8ABF29;
+    text-shadow: 0 0 2px white;
+    transition: all 150ms linear;
+}
+
+ul li {
+	position:relative;
+	float:left;
+}
+
+ul li:hover > ul {
+	display:block
+}
+
+
+ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	padding:0;
+    background-color: #8ABF29;; 
+}
+
+ul ul li {
+	width:200px
+}
+
+ul ul a {
+	line-height:120%;
+	padding:10px 15px;
+    color: #eee;
+}
+
+ul ul a:hover,
+ul ul a:active {
+    color: #ddd;
+}
+
+.clear {
+    clear: both;
+}

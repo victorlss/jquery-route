@@ -1,0 +1,33 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-align: center;
+}
+h1
+{
+    margin: 0;
+    font-size: 50px;
+}
+
+h1, footer{
+    font-family: 'Caveat Brush', cursive;
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    width: 99%;
+    font-size: 20px;
+}
+
+a {
+    color: #8ABF29;
+    text-decoration: none;
+}
+
+.github-fork-ribbon:before {
+    background-color: #8ABF29 !important;
+}

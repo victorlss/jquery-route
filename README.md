@@ -1,7 +1,7 @@
 # jQuery Route
 
-<a href="https://raw.githubusercontent.com/victorlss/jquery-route/master/jquery.route.js" target="_blank">Latest Version Download (1.1.0)</a>
-
+<a href="http://dev.victorleonardo.com/jquery-route/" target="_blank">Demo</a><br />
+<a href="https://raw.githubusercontent.com/victorlss/jquery-route/master/src/jquery.route.js" target="_blank">Latest Version Download (1.1.0)</a>
 
 #### Example
 ```html

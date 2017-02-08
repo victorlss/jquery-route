@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>jQuery Route</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="styles/app.css" rel="stylesheet" />
+        <link href="styles/navbar.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        
+        <header>
+            <h1>jQuery Route</h1>
+
+            <!--Nav Bar-->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li>
+                    <a href="#">Pages</a>
+                    <ul>
+                        <li><a href="#pages/page-one">Page One</a></li>
+                        <li><a href="#pages/page-two">Page Two</a></li>
+                    </ul>
+                </li>
+                <li><a href="#users">Users</a></li>
+            </ul>
+
+            <a class="github-fork-ribbon" href="https://github.com/victorlss/jquery-route" target="_blank" title="Fork me on GitHub">Fork me on GitHub</a>
+        </header>
+
+        <br class="clear" />
+
+        <!--The content will be rendered here-->
+        <div id="content"></div>
+
+        <footer>
+            Built with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i> by <a href="http://victorleonardo.com" target="_blank">Victor Souza</a>
+        </footer>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="../src/jquery.route.js"></script>
+        <script type="text/javascript">
+            $("#content").route({
+                default: "home",
+                routes: [
+                    {
+                        url: "home",
+                        view: "views/home.html"
+                    },
+                    {
+                        url: "pages/page-one",
+                        view: "views/pages/page-one.html"
+                    },
+                    {
+                        url: "pages/page-two",
+                        view: "views/pages/page-two.html"
+                    },
+                    {
+                        url: "users",
+                        view: "views/users/index.html"
+                    },
+                    {
+                        url: "users/{id}",
+                        view: "views/users/detail.html?id={id}"
+                    }
+                ]
+            });
+        </script>
+    </body>
+</html>
